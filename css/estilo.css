@@ -1,0 +1,50 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FEFEFE;
+}
+
+.container-foto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+   
+}
+.foto-tamanho{
+    width: 500px;
+    height: 300px;
+}
+.foto{
+padding: 2px;
+
+}
+
+#ul-menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 15px 0px 15px 0px;
+    padding: 0;
+    
+}
+#ul-menu a{
+    text-decoration: none;
+}
+.container-texto{
+    padding: 0;
+    margin: 0;
+
+}
+.container-texto > h3{
+    margin: 5px 0px 5px 5px ;
+
+}
+.container-texto > p{
+    margin: 5px 0px 10px 5px ;
+    
+}
