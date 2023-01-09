@@ -5,32 +5,43 @@
 }
 body{
     background-color: #FEFEFE;
+    overflow-x: hidden;
 }
 
 .container-foto{
     display: flex;
-    flex-direction: row;
+    width: 33.33%;
     align-items: center;
-    
-    
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-weight: 800;
    
 }
 .foto-tamanho{
-    width: 500px;
+    width: 400px;
     height: 300px;
+    margin-left: 37px;
+    
 }
-.foto{
-padding: 2px;
-
+figure{
+    margin: 0;
+    padding: 0;
 }
 
 #ul-menu{
     display: flex;
-    flex-direction: row;
+    align-items: center;
     list-style-type: none;
     margin: 15px 0px 15px 0px;
     padding: 0;
     
+    
+}
+
+#ul-menu li{
+
+    padding:15px 17px;
 }
 #ul-menu a{
     text-decoration: none;
@@ -38,13 +49,18 @@ padding: 2px;
 .container-texto{
     padding: 0;
     margin: 0;
-
-}
-.container-texto > h3{
-    margin: 5px 0px 5px 5px ;
-
-}
-.container-texto > p{
-    margin: 5px 0px 10px 5px ;
     
+
+}
+p{
+    padding: 0;
+    margin-bottom: 15px;
+
+}
+
+
+h2{
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
