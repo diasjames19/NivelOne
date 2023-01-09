@@ -128,7 +128,7 @@ h2{
     padding: 25px;
 }
 .titulo-h5{
-    font-size: 1.3em;
+    font-size: 2em;
     color: #FEFEFE;
     margin-top: 10px;
     display:flex ;
@@ -149,7 +149,7 @@ h2{
 }
 .direitos{
     color:#FEFEFE;
-    font-size: 1.0em;
+    font-size: 1.3em;
     align-items: center;
     text-align: center;
 }
