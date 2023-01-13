@@ -93,6 +93,7 @@ figcaption{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-left: 2px solid white;
 }
 #ul-menu a:hover {
     background-color: #871BDB;
@@ -193,10 +194,17 @@ h2{
 #galeria{
     font-size: 2em;
 }
-@media screen  and (max-width:375px){
-    #ul-menu a:not(:first-child) {display: none;}
-    #ul-menu a.icon {
-      float: right;
-      display: block;
+@media screen and (min-width:600px) and (max-width:768px)  {
+    #ul-menu > a{
+        display: block;
+        align-items: center;
+        list-style-type: none;
+        margin: 15px 0px 15px 0px;
+        padding: 0;
+        border-top: 1px solid white;
+
+        
+        
+        
     }  
 }
